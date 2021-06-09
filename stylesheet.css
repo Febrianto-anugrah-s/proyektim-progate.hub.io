@@ -93,7 +93,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: #2f5167;
   position :fixed;
   top: 0;
   z-index: 10;
@@ -195,21 +195,17 @@ header {
   
 }
 
-footer img {
-  width: 125px;
-}
 
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
+
 
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-  
+  background-color: #2f5167;
+  color: #fff;
+  height: 200px;
+  padding:40px;
 }
-
 span.menu-icon {
   color: white;
   float: right;
@@ -217,4 +213,29 @@ span.menu-icon {
   padding: 21px 0;
   display: none;
 }
+.footer img {
+    width: 125px;
+  float:left;
+}
 
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.footer-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.footer-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
